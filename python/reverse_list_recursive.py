@@ -7,4 +7,4 @@ def reverse_list(data):
 		return [data[-1]] + reverse_list(data[0:-1])
 
 data = [1,2,3,4,5,6]
-print reverse_list(data)
+print(reverse_list(data))
